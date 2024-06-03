@@ -1,0 +1,28 @@
+characters = {
+#Create country leader - Eberhard Ludwig
+eberhard_ludwig = {
+	name = eberhard_ludwig
+	portraits = {
+		army = {
+                large = "/gfx/leaders/WUR/Eberhard_Ludwig.dds"
+            }
+		civilian = {
+			#Custom image for Eberhard Ludwig
+			large = "/gfx/leaders/WUR/Eberhard_Ludwig.dds"
+		}
+	}
+	country_leader = {
+		expire = "1733.1.1"
+		ideology = despotism
+		traits = {  underage_monarch }
+	}
+	field_marshal = {
+            traits = {}
+            skill = 3
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 2
+        }
+}
+}
